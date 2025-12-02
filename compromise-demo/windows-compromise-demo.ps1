@@ -111,7 +111,7 @@ $description = New-TextBlock -Text $descriptionText -Foreground "White" -FontSiz
 $stack.Children.Add($description)
 
 # Footer /countdown
-$global:countdown = 60
+$global:countdown = 30
 $footer = New-TextBlock -Text "Wait $global:countdown seconds to regain control" -Foreground "Orange" -FontSize 24 -FontFamily "Consolas" -Margin "0,20,0,0"
 $stack.Children.Add($footer)
 
