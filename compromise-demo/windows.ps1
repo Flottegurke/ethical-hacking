@@ -1,5 +1,5 @@
 param(
-    [string]$AttackType = "Unknown Attack"
+    [string]$at = "Unknown Attack"
 )
 
 Add-Type -AssemblyName PresentationCore, PresentationFramework
