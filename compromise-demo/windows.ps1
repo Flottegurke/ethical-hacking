@@ -114,7 +114,7 @@ on how easily your system could get compromised.
 This script does NOT damage your computer or access your data in anny way.
 
 === Attack Type ===
-$AttackType
+$at
 "@
 $description = New-TextBlock -Text "" -Margin "0,0,0,20"
 $stack.Children.Add($description)
